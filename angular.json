@@ -10,9 +10,10 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/gym-frontend-angular",
+            "outputPath": "dist/airai-gym",
             "index": "src/index.html",
             "browser": "src/main.ts",
+			"tsConfig": "tsconfig.app.json",
             "polyfills": [],
             "assets": [
               "src/assets",
@@ -27,7 +28,7 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "buildTarget": "gym-frontend-angular:build"
+            "buildTarget": "airai-gym:build"
           }
         }
       }
