@@ -1,0 +1,25 @@
+[
+  {
+    "id": "ts1",
+    "name": "Vikram",
+    "photo": "",
+    "story": "Lost 8kg in 10 weeks with HIIT + nutrition guidance.",
+    "rating": 5,
+    "beforeImg": "",
+    "afterImg": ""
+  },
+  {
+    "id": "ts2",
+    "name": "Meera",
+    "photo": "",
+    "story": "From desk job aches to pain-free mobility with Yoga.",
+    "rating": 5
+  },
+  {
+    "id": "ts3",
+    "name": "Aarav",
+    "photo": "",
+    "story": "Increased deadlift by 60% in 4 months with strength cycles.",
+    "rating": 4
+  }
+]

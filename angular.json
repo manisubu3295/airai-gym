@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json.schemastore.org/angular-cli",
+  "version": 1,
+  "projects": {
+    "gym-frontend-angular": {
+      "projectType": "application",
+      "root": "",
+      "sourceRoot": "src",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:application",
+          "options": {
+            "outputPath": "dist/gym-frontend-angular",
+            "index": "src/index.html",
+            "browser": "src/main.ts",
+            "polyfills": [],
+            "assets": [
+              "src/assets",
+              "src/favicon.ico"
+            ],
+            "styles": [
+              "src/styles/global.scss"
+            ],
+            "inlineStyleLanguage": "scss"
+          }
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "buildTarget": "gym-frontend-angular:build"
+          }
+        }
+      }
+    }
+  }
+}

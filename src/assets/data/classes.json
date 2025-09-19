@@ -1,0 +1,57 @@
+[
+  {
+    "id": "c1",
+    "name": "Morning Yoga",
+    "type": "Yoga",
+    "level": "Beginner",
+    "duration": 60,
+    "slots": 15,
+    "schedule": [
+      {
+        "day": "Mon",
+        "time": "07:00",
+        "trainerId": "t1"
+      },
+      {
+        "day": "Wed",
+        "time": "07:00",
+        "trainerId": "t1"
+      }
+    ]
+  },
+  {
+    "id": "c2",
+    "name": "HIIT Blast",
+    "type": "HIIT",
+    "level": "Intermediate",
+    "duration": 45,
+    "slots": 12,
+    "schedule": [
+      {
+        "day": "Tue",
+        "time": "18:00",
+        "trainerId": "t2"
+      },
+      {
+        "day": "Thu",
+        "time": "18:00",
+        "trainerId": "t2"
+      }
+    ]
+  },
+  {
+    "id": "c3",
+    "name": "CrossFit Power",
+    "type": "CrossFit",
+    "level": "Advanced",
+    "duration": 50,
+    "slots": 10,
+    "schedule": [
+      {
+        "day": "Sat",
+        "time": "08:30",
+        "trainerId": "t3"
+      }
+    ]
+  }
+]

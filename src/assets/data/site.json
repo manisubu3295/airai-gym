@@ -1,0 +1,38 @@
+{
+  "brand": {
+    "name": "IronPulse Fitness",
+    "tagline": "Stronger Every Day"
+  },
+  "navigation": [
+    {
+      "label": "Home",
+      "path": "/"
+    },
+    {
+      "label": "Pricing",
+      "path": "/pricing"
+    },
+    {
+      "label": "Schedule",
+      "path": "/schedule"
+    },
+    {
+      "label": "Trainers",
+      "path": "/trainers"
+    },
+    {
+      "label": "Contact",
+      "path": "/contact"
+    }
+  ],
+  "social": {
+    "instagram": "https://instagram.com/ironpulse",
+    "facebook": "#",
+    "youtube": "#"
+  },
+  "contact": {
+    "email": "hello@ironpulse.fit",
+    "phone": "+91 98765 43210",
+    "address": "MG Road, Bengaluru"
+  }
+}

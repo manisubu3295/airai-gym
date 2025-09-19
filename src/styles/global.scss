@@ -1,0 +1,22 @@
+
+:root {
+  --color-primary: #0A1128;
+  --color-accent:  #00D4D8;
+  --color-surface: #001b2e;
+  --color-card:    #0c1a3a;
+  --color-text:    #e8f3f9;
+  --color-muted:   #94a3b8;
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;font-family:Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;background:var(--color-primary);color:var(--color-text)}
+a{text-decoration:none;color:inherit}
+.container{max-width:1200px;margin:0 auto;padding:0 16px}
+img{max-width:100%;display:block}
+button{cursor:pointer}
+select{background:var(--color-card);color:var(--color-text);border:1px solid rgba(255,255,255,.15);border-radius:10px;padding:.5rem}
+
+
+/* Animations */
+.reveal{opacity:0;transform:translateY(6px);animation:reveal .5s ease forwards}
+@keyframes reveal{to{opacity:1;transform:none}}

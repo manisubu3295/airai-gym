@@ -1,0 +1,37 @@
+[
+  {
+    "id": "basic",
+    "name": "Basic",
+    "priceMonthly": 999,
+    "priceYearly": 9999,
+    "features": [
+      "Gym Access",
+      "Locker"
+    ],
+    "popular": false
+  },
+  {
+    "id": "pro",
+    "name": "Pro",
+    "priceMonthly": 1499,
+    "priceYearly": 13999,
+    "features": [
+      "Everything in Basic",
+      "Group Classes",
+      "Diet Plan"
+    ],
+    "popular": true
+  },
+  {
+    "id": "elite",
+    "name": "Elite",
+    "priceMonthly": 2499,
+    "priceYearly": 22999,
+    "features": [
+      "All Pro",
+      "Personal Training (4/mo)",
+      "InBody Check"
+    ],
+    "popular": false
+  }
+]
